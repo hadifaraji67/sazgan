@@ -25,6 +25,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/devices/
+    - assets/devices_index.json
     - assets/fonts/
   fonts:
     - family: Vazirmatn

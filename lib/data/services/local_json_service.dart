@@ -6,7 +6,6 @@ class LocalJsonService {
   Future<List<Device>> loadDevices() async {
     final indexJson = await rootBundle.loadString('assets/devices_index.json');
     final List<dynamic> index = json.decode(indexJson);
-
     final devices = <Device>[];
     for (final item in index) {
       final folder = item['folder'] as String;

@@ -17,10 +17,7 @@ class SazganWikiApp extends StatelessWidget {
   Widget build(BuildContext context) {
     final router = GoRouter(
       routes: [
-        GoRoute(
-          path: '/',
-          builder: (_, __) => const HomePage(),
-        ),
+        GoRoute(path: '/', builder: (_, __) => const HomePage()),
         GoRoute(
           path: '/device/:id',
           builder: (_, state) =>
