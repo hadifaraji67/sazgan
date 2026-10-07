@@ -1,0 +1,13 @@
+{
+  "id": "vista_mn4_a6",
+  "name": "Vista MN4-A6",
+  "model": "MN4-A6",
+  "description": "راهنمای سریع دستگاه Vista MN4-A6",
+  "files": [
+    {
+      "type": "quick_guide",
+      "title": "کوییک گاید",
+      "path": "assets/devices/device_1/quick_guide.pdf"
+    }
+  ]
+}
